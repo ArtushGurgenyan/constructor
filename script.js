@@ -67,13 +67,20 @@ constructor.addEventListener("mouseup", (e) => {
 result.addEventListener("mouseup", (e) => {
     e.stopPropagation();
 
-    if (clickedElement && clickedElement instanceof Node) {
+    if (clickedElement) {
         let targetElem = e.target;
-
-        if (targetElem !== result && targetElem.textContent === "div") {
+        console.log(targetElem)
+        
+        if (targetElem !== result && targetElem.classList.contains("div")) {
             targetElem.appendChild(clickedElement);
             clickedElement.parentId = 2; 
+                        // if(clickedElement)
+            console.log(clickedElement, targetElem)
+        } else if (clickedElement && targetElem.textContent === "div"   ) {
+            targetElem.appendChild(clickedElement);
+
         }
+
     }
 
     clickedElement = null; 
