@@ -1,0 +1,103 @@
+*{
+    user-select: none;
+}
+
+
+.container {
+display: flex;
+width: 100%;
+height: 500px;
+}
+
+.constructor {
+    width: 460px;
+    border: 2px solid black;
+    padding: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.result {   
+    width: 500px;
+    border: 2px solid black;
+    margin-left: 20px;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+span {
+    font-size: 26px;
+}
+
+.resN {
+    margin-left: 400px;
+}
+
+
+
+.option {
+    border: 2px solid black;
+}
+.option.div {
+    min-width: 10vh;
+    min-height: 10vh;
+    border: 2px solid black;
+    margin-top: 10px;
+    color: rgb(4, 155, 255);
+    padding: 20px;
+}
+
+.option.div:hover {
+    border-color: orange;
+}
+
+.option.h1 {
+    width: 100%;
+    height: 60px;
+    border: 2px solid black;
+    margin-top: 10px;
+    color: rgb(4, 155, 255);
+}
+
+.option.h1:hover {
+    border-color: orange;
+}
+
+
+
+.option.input {
+    width: 96%;
+    height: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.option.input:hover {
+    border-color: orange;
+}
+
+.option.span {
+    min-width: 10vh ;
+    height: 55px;
+    border: 2px solid black;
+    margin-top: 10px;
+    color: rgb(4, 155, 255);
+}
+
+.option.span:hover {
+    border-color: orange;
+}
+
+
+.option.paragraph {
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+    margin-top: 10px;
+    color: rgb(4, 155, 255);
+}
+
+.option.paragraph:hover {
+    border-color: orange;
+}
