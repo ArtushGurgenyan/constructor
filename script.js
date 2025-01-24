@@ -74,11 +74,6 @@ result.addEventListener("mouseup", (e) => {
         if (targetElem !== result && targetElem.classList.contains("div")) {
             targetElem.appendChild(clickedElement);
             clickedElement.parentId = 2; 
-                        // if(clickedElement)
-            console.log(clickedElement, targetElem)
-        } else if (clickedElement && targetElem.textContent === "div"   ) {
-            targetElem.appendChild(clickedElement);
-
         }
 
     }
